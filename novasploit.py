@@ -19,11 +19,11 @@ ascii_sanat = """
 """
 
 def termux_temel_kurulum():
-    # Termux temel kurulumu kodları buraya
+    
     print("Termux temel kurulumu yapılıyor...")
 
 def nethunter_kurulum():
-    # Nethunter kurulumu kodları buraya
+   
     print ("Nethunter kurulumu yapılıyor...")
 
 def githubdan_tool_ekle():
@@ -176,9 +176,9 @@ apt install bmon -y
 apt update -y
 apt upgrade -y""")
     elif islem == "2" or islem == "02":
-        os.system("""pkg install wget -y
+        os.system("""pkg install wget -y &&
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
-chmod +x install-nethunter-termux""")
+&& chmod +x install-nethunter-termux && bash install-nethunter-termux""")
     elif islem == "3" or islem == "03":
         githubdan_tool_ekle()
     elif islem == "4" or islem == "04":
