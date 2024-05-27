@@ -1,4 +1,5 @@
-pkg install git -y &&
-pkg install python -y &&
-git clone https://github.com/mysteruss/NovasploitTermux &&
-python novasploit.py
+1)pkg install git -y 
+2)pkg install python -y 
+3)git clone https://github.com/mysteruss/NovasploitTermux 
+4)cd NovasploitTermux 
+5)python novasploit.py
