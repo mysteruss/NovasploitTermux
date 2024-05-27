@@ -28,21 +28,21 @@ def nethunter_kurulum():
 
 def githubdan_tool_ekle():
     print("\nTOOLLAR EKLE")
-    print("[1] Tool 1 PHİSHİNG TOOLU (RUBİKPHİSH)")
+    print("[1] Tool 1 PHİSHİNG TOOLU ")
     print("[2] Tool 2 İNSTA BRUTEFORCE")
     print("[3] Tool 3 007THEBOND ")
     print("[4] Tool 4 SQLMAP ")
     print("[5] Tool 5 cupp ")
     print("[6] Tool 6 Camhack")
-    print("[7] Tool Doxxer-Toolkit")
-    print("[8] Tool Termux-Hydra ")
-    print("[9] Tool Red Hawk")
-    print("[10] Tool Mr.Holmes ")
-
+    print("[7] Tool 7 Doxxer-Toolkit")
+    print("[8] Tool 8 Termux-Hydra ")
+    print("[9] Tool 9 Red Hawk")
+    print("[10] Tool 10 Mr.Holmes ")
+    print("[11] Tool 11 AndroRat")
     tool = input("\nİSTEDİĞİNİZ TOOL NUMARASI: ")
 
     if tool == "1":
-        os.system("git clone https://github.com/rubikproxy/rubikphish")
+        os.system("git clone https://github.com/Cyber-Anonymous/Dark-Phish")
         print ("Rubikphish yükleniyor...")
     elif tool == "2":
         os.system("git clone https://github.com/akashblackhat/instagrame-hacking")
@@ -71,6 +71,9 @@ def githubdan_tool_ekle():
     elif tool == "10":
         os.system("git clone https://github.com/Lucksi/Mr.Holmes")
         print ("Mr.Holmes yükleniyor...")
+     elif tool == "11":
+        os.system("git clone https://github.com/karma9874/AndroRAT")
+        print ("AndroRat yükleniyor...")
     else:
         print ("Geçersiz araç numarası")
 
