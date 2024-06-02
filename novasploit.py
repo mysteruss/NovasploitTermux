@@ -38,7 +38,7 @@ def githubdan_tool_ekle():
     print("[8] Tool 8 Termux-Hydra ")
     print("[9] Tool 9 Red Hawk")
     print("[10] Tool 10 Mr.Holmes ")
-    print("[11] Tool 11 AndroRat")
+    
     tool = input("\nİSTEDİĞİNİZ TOOL NUMARASI: ")
 
     if tool == "1":
@@ -71,9 +71,6 @@ def githubdan_tool_ekle():
     elif tool == "10":
         os.system("git clone https://github.com/Lucksi/Mr.Holmes")
         print ("Mr.Holmes yükleniyor...")
-     elif tool == "11":
-        os.system("git clone https://github.com/karma9874/AndroRAT")
-        print ("AndroRat yükleniyor...")
     else:
         print ("Geçersiz araç numarası")
 
