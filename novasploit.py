@@ -12,10 +12,10 @@ ascii_sanat = """
  |_| \\_|\\____/   \\/_/    \\_\\_____/|_|    |______\\____/  |_|   |_⠀'⠀⠀
       İnstagram :@novasploit ||
                    ~ Coded By NOVASPLOİT ~
-1) TERMUX TEMEL KURULUM
-2) NETHUNTER KURULUMU
-3) TOOLLAR KUR
-4) METASPLOİT KURULUMU
+1) TERMUX PACKAGES İNSTALL
+2) NETHUNTER İNSTALL
+3) TOOLS İN GİTHOOB
+4) NETHUNTER TOOLS İNSTALLER
 """
 
 def termux_temel_kurulum():
@@ -176,14 +176,10 @@ apt install bmon -y
 apt update -y
 apt upgrade -y""")
     elif islem == "2" or islem == "02":
-        os.system("""pkg install wget -y &&
-wget -O install-nethunter-termux https://offs.ec/2MceZWr
-&& chmod +x install-nethunter-termux && bash install-nethunter-termux""")
+        os.system("""python novahunter.py""")
     elif islem == "3" or islem == "03":
         githubdan_tool_ekle()
     elif islem == "4" or islem == "04":
-        os.system("""apt install proot-distro && proot-distro install ubuntu && proot-distro login ubuntu && apt install curl && apt install gnupg  &&  https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall &&
-  ./msfinstall """)
+        os.system("""python novainstaller.py""")
     else:
         print ("Geçersiz seçim")
