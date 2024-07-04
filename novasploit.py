@@ -180,6 +180,6 @@ apt upgrade -y""")
     elif islem == "3" or islem == "03":
         githubdan_tool_ekle()
     elif islem == "4" or islem == "04":
-        os.system("""python novainstaller.py""")
+        os.system("""python3 novainstaller.py""")
     else:
         print ("Geçersiz seçim")
