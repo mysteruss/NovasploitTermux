@@ -21,6 +21,7 @@ print ("""\033[93m┌───────────────────�
 İNSTALLİNG SQLMAP
 İNSTALLİNG NMAP
 İNSTALLİNG MASSCAN
+İNSTALLİNG HASHCAT
 \033[0m""")
 os.system("sudo apt install aircrack-ng")
 os.system("sudo apt install reaver")
@@ -38,5 +39,5 @@ os.system("sudo apt install metasploit")
 os.system("sudo apt install sqlmap")
 os.system("sudo apt install nmap")
 os.system("sudo apt install masscan") 
-
+os.system("sudo apt install hashcat") 
 
