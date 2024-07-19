@@ -1,7 +1,6 @@
 import os
 
-ascii_sanat = """
-⠀⠀⠀⠀⠀
+ascii_sanat = """\033[93m
 ⠀
 ⠀⠀⠀⠀
 ⠀ _   _  ______      __      _____ _____  _      ____    _   ______
@@ -16,7 +15,7 @@ ascii_sanat = """
 2) NETHUNTER İNSTALL
 3) TOOLS İN GİTHOOB
 4) NETHUNTER TOOLS İNSTALLER
-"""
+\033[0m"""
 
 def termux_temel_kurulum():
     
