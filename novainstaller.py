@@ -20,6 +20,7 @@ print ("""\033[93m┌───────────────────�
 İNSTALLİNG METASPLOİT
 İNSTALLİNG SQLMAP
 İNSTALLİNG NMAP
+İNSTALLİNG MASSCAN
 \033[0m""")
 os.system("sudo apt install aircrack-ng")
 os.system("sudo apt install reaver")
@@ -36,6 +37,6 @@ os.system("git clone https://github.com/golismero/golismero")
 os.system("sudo apt install metasploit")
 os.system("sudo apt install sqlmap")
 os.system("sudo apt install nmap")
-
+os.system("sudo apt install masscan") 
 
 
