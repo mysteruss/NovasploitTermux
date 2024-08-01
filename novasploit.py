@@ -1,5 +1,5 @@
 import os
-
+import sys
 ascii_sanat = """\033[93m
 ⠀
 ⠀⠀⠀⠀
@@ -15,6 +15,7 @@ ascii_sanat = """\033[93m
 2) NETHUNTER İNSTALL
 3) TOOLS İN GİTHOOB
 4) NETHUNTER TOOLS İNSTALLER
+5) EXİT (ÇIKIŞ) 
 \033[0m"""
 
 def termux_temel_kurulum():
@@ -180,5 +181,8 @@ apt upgrade -y""")
         githubdan_tool_ekle()
     elif islem == "4" or islem == "04":
         os.system("""python3 novainstaller.py""")
+    elif islem == "5" or islem == "05":
+        sys.exit() 
     else:
         print ("Geçersiz seçim")
+ 
