@@ -28,7 +28,7 @@ def nethunter_kurulum():
 
 def githubdan_tool_ekle():
     print("\nTOOLLAR EKLE")
-    print("[1] Tool 1 KRAWTER SQL ")
+    print("[1] Tool 1 SHADOW-PENTEST ")
     print("[2] Tool 2 İNSTA BRUTEFORCE")
     print("[3] Tool 3 007THEBOND ")
     print("[4] Tool 4 SQLMAP ")
@@ -42,8 +42,8 @@ def githubdan_tool_ekle():
     tool = input("\nİSTEDİĞİNİZ TOOL NUMARASI: ")
 
     if tool == "1":
-        os.system("git clone https://github.com/KraWterr/Sql-krawter")
-        print ("KRAWTER SQL yükleniyor...")
+        os.system("git clone https://github.com/Quatrilion/Shadow.git") 
+        print ("SHADOW PENTEST yükleniyor...")
     elif tool == "2":
         os.system("git clone https://github.com/akashblackhat/instagrame-hacking")
         print ("İnstagram Brute Force yükleniyor...")
